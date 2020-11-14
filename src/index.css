@@ -12,17 +12,17 @@ code {
     monospace;
 }
 
-                                                      /** NavBarSix **/
-/* white text color */
-#navbar-six .navbar-brand {
+                                                      /** NavBarSeven **/
+/* white text color for brand */
+#navbar-seven .navbar-brand {
   color: white !important;
 }
 
-#navbar-six .navbar-light .navbar-nav .nav-link {
+/* white text color for navlinks and black text on hover */
+#navbar-seven .navbar-light .navbar-nav .nav-link {
   color: white;
-
 }
 
-#navbar-six .navbar-light .navbar-nav .nav-link:hover {
+#navbar-seven .navbar-light .navbar-nav .nav-link:hover {
   color: black;
 }

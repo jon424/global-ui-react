@@ -241,7 +241,7 @@ const NavBarOne = () => {
         </Navbar>
       </div>
 
-      <div id="navbar-six">
+      <div id="navbar-seven">
         <Navbar bg="danger" expand="lg">
           <Navbar.Brand href="#home">Global UI</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
