@@ -9,7 +9,8 @@ import {
 } from "react-bootstrap";
 
 //Required Import: npm i react-bootstrap bootstrap
-// need this code in source index.js or App.js file: import 'bootstrap/dist/css/bootstrap.min.css';
+// You will need this line of code in source index.js or App.js file (We have placed it in the App.js file): import 'bootstrap/dist/css/bootstrap.min.css';
+// test
 
 const NavBarOne = () => {
   return (
