@@ -3,6 +3,7 @@ import { Nav } from "react-bootstrap";
 
 //https://stackoverflow.com/questions/60482018/make-a-sidebar-from-react-bootstrap
 
+// I want it to go to hamburger menu on mobile and expand and collapse at that point with variations in animation style...
 const SideBars = (props) => {
   return (
     <>
