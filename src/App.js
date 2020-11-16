@@ -4,6 +4,7 @@ import Images from "./components/Images";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// look at this for gridding: https://react-bootstrap.github.io/layout/grid/
 function App() {
   return (
     <>
