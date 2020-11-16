@@ -53,15 +53,10 @@ code {
 .sidebar {
   width: 200px !important;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .sidebar {
     width: 100% !important;
     height: auto;
     position: relative;
-    border: 2px solid red !important;
-  }
-  #sidebar-wrapper a {
-    text-align: center;
-    float: none;
   }
 }

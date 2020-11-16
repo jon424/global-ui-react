@@ -28,10 +28,11 @@ import {
 //    } from "@fortawesome/free-solid-svg-icons";
 
 const SideBars = (props) => {
+  // in the <Nav />: className="col-md-12 d-none d-md-block bg-light sidebar"
   return (
     <>
       <Nav
-        className="col-md-12 d-none d-md-block bg-light sidebar"
+        className="col-md-12  d-md-block bg-light sidebar"
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       >
