@@ -11,6 +11,9 @@ import {
 
 // I want it to go to hamburger menu on mobile and expand and collapse at that point with variations in animation style...
 
+//make it responsive like: https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+// AND do this one: https://codyhouse.co/gem/responsive-sidebar-navigation
+
 //Required Installations:
 //   npm i --save @fortawesome/fontawesome-svg-core
 //   npm install --save @fortawesome/free-solid-svg-icons
