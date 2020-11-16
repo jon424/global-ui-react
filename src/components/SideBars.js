@@ -1,6 +1,11 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCoffee,
+  faAtom,
+  faAngleDoubleRight,
+} from "@fortawesome/free-solid-svg-icons";
 //https://stackoverflow.com/questions/60482018/make-a-sidebar-from-react-bootstrap
 
 // I want it to go to hamburger menu on mobile and expand and collapse at that point with variations in animation style...
@@ -15,10 +20,14 @@ const SideBars = (props) => {
         <div className="sidebar-sticky div-space"></div>
         <Navbar.Brand href="#home">Global UI</Navbar.Brand>
         <Nav.Item>
-          <Nav.Link href="/home">Active</Nav.Link>
+          <Nav.Link href="/home">
+            <FontAwesomeIcon icon={faCoffee} /> asdfasdf
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Link</Nav.Link>
+          <Nav.Link eventKey="link-1">
+            Link <FontAwesomeIcon icon={faAngleDoubleRight} />
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-2">Link</Nav.Link>
