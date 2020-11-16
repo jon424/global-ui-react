@@ -1,5 +1,5 @@
 import NavBars from "./components/NavBars";
-import SideBars from './components/SideBars';
+import SideBars from "./components/SideBars";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -8,15 +8,15 @@ function App() {
     <>
       <NavBars />
       <Container fluid>
-                <Row>
-                    <Col xs={2} id="sidebar-wrapper">      
-                      <SideBars />
-                    </Col>
-                    <Col  xs={10} id="page-content-wrapper">
-                        this is a test
-                    </Col> 
-                </Row>
-            </Container>
+        <Row>
+          <Col xs={2} id="sidebar-wrapper">
+            <SideBars />
+          </Col>
+          <Col xs={10} id="page-content-wrapper">
+            this is a test
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
