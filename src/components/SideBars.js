@@ -9,6 +9,20 @@ import {
 //https://stackoverflow.com/questions/60482018/make-a-sidebar-from-react-bootstrap
 
 // I want it to go to hamburger menu on mobile and expand and collapse at that point with variations in animation style...
+
+//Required Installations:
+//   npm i --save @fortawesome/fontawesome-svg-core
+//   npm install --save @fortawesome/free-solid-svg-icons
+//   npm install --save @fortawesome/react-fontawesome
+//Required Imports:
+//    import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+//    import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//    import {
+//      faCoffee,
+//      faAtom,
+//      faAngleDoubleRight,
+//    } from "@fortawesome/free-solid-svg-icons";
+
 const SideBars = (props) => {
   return (
     <>
