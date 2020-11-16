@@ -1,4 +1,7 @@
-/**Document Styles - you need this block for all components to be styled correctly**/
+/* ===============
+   GLOBAL SETTINGS 
+   =============== */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -14,11 +17,15 @@ code {
     monospace;
 }
 
-.div-space {
+.div-space,
+.sidebar {
   margin-top: 5px;
 }
 
-/** NavBars**/
+/* ===============
+   NavBars
+   =============== */
+
 /* white text color for brand */
 #navbar-seven .navbar-brand,
 #navbar-eight .navbar-brand,
@@ -39,7 +46,9 @@ code {
   color: black;
 }
 
-/** SideBars**/
+/* ===============
+   SideBars
+   =============== */
 .container,
 .container-fluid,
 .container-lg,
@@ -50,9 +59,15 @@ code {
   padding-right: 0px !important;
 }
 
+/* For height and width values: change the height of the sidebar to be the height of the screen you are targetting. Width is set to 200px here */
+.nav {
+  height: 860px;
+}
+
 .sidebar {
   width: 200px !important;
 }
+
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100% !important;
