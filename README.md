@@ -1,10 +1,11 @@
-# Global UI React - A React UI Component Library
+# Global UI React - A React UI Component Library 🌎🌍🌏
 
-## What Is Global UI React?
+## 🌎 What Is Global UI React?
 
-components that can be reused and rebuilt 
+components that can be reused and rebuilt
 
 The required dependencies for each component are provided in code comments:
+
 ```js
 //Required Dependencies: react-bootstrap {VERSION}, etc...
  <div id="navbar-three" className="div-space">
@@ -12,14 +13,16 @@ The required dependencies for each component are provided in code comments:
           <Navbar.Brand href="#home">Global UI</Navbar.Brand>
         ...
         ...
-```         
+```
+
 subtle variations just gradations of differences in the components
 <br><br>
-# Development
+
+# 💻 Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🌎 Available Scripts
 
 In the project directory, you can run:
 
@@ -56,9 +59,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 🌎 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).  
-
+To learn React, check out the [React documentation](https://reactjs.org/).
