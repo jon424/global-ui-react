@@ -12,9 +12,7 @@ function App() {
           <Col xs={2} id="sidebar-wrapper">
             <SideBars />
           </Col>
-          <Col xs={10} id="page-content-wrapper">
-            this is a test
-          </Col>
+          <Col xs={10} id="page-content-wrapper"></Col>
         </Row>
       </Container>
     </>
